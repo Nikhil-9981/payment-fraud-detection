@@ -6,8 +6,6 @@ __pycache__
 *.csv
 *.pkl
 *.joblib
-*.toml
-*.streamlit
 km_C_features.pklmjvy5mml.part
 
 # Virtual environment

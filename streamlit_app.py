@@ -355,6 +355,8 @@ def deviceInfo(labels):
 
   # For DeviceInfo
   DeviceInfo = st.selectbox("Device Info", list(labels.keys()), key="DeviceInfo")
+  if DeviceInfo not in list(labels.keys()):
+    DeviceInfo = 'nan'
   DeviceInfo = labels[DeviceInfo]
 
   device_data = {"DeviceType": DeviceType, "DeviceInfo": DeviceInfo}
@@ -622,7 +624,7 @@ if __name__ == '__main__':
                   {abstract_content}\
                   </div>', unsafe_allow_html=True)
     
-     
+   
 
     disclaimer = st.expander("Disclaimer", expanded=True)
     with disclaimer:
