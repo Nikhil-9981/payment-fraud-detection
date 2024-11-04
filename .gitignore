@@ -1,0 +1,15 @@
+# Cache files
+__pycache__
+.ipynb_checkpoints
+
+# secret files
+*.csv
+*.pkl
+*.joblib
+*.toml
+*.streamlit
+km_C_features.pklmjvy5mml.part
+
+# Virtual environment
+myenv
+.venv
